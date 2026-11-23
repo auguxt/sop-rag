@@ -1,0 +1,32 @@
+Document ID: CHK-MC-007
+Title: CNC Machine Quality Checklist
+Document Type: Checklist
+Revision: A
+Effective Date: 2025-10-20
+Owner: Production Engineering
+
+1. Purpose
+Daily checklist for CNC operators to confirm that the machine and gauges are fit to produce conforming parts.
+
+2. Start-of-Shift Checks
+- Coolant level and concentration checked and recorded.
+- Machine warm-up cycle completed.
+- Work-holding fixture clean and free of chips.
+- Correct program number and revision loaded as per the traveler.
+
+3. Gauge Checks
+- Vernier calipers used at the machine shall be calibrated every 12 months.
+- Check the calibration label date before use; do not use a gauge past its due date.
+- Zero-check calipers and micrometers at the start of every shift.
+
+4. First-Piece and Patrol Checks
+- Perform the first-piece inspection as per SOP-QA-003 and obtain Line Quality Inspector sign-off.
+- Perform patrol checks every 2 hours and record them on QF-301.
+- Check surfaces for scratches caused by chips or handling.
+
+5. End-of-Shift Checks
+- Clean the machine and the fixture.
+- Hand over open issues and HOLD parts to the next shift.
+
+6. Escalation
+- If a dimension is out of tolerance or a gauge has failed, stop the machine and inform the Production Supervisor.

@@ -1,0 +1,40 @@
+Document ID: SOP-NCR-006
+Title: Non-Conformance Workflow
+Document Type: Standard Operating Procedure
+Revision: C
+Effective Date: 2026-01-05
+Owner: Quality Engineering
+
+1. Purpose
+This procedure defines how nonconforming product is identified, documented, reviewed and dispositioned.
+
+2. Scope
+Applies to nonconformances found at incoming, in-process and final inspection and to customer returns.
+
+3. Responsibilities
+- Person finding the defect: segregates the product and raises the NCR.
+- Quality Engineer: investigates the root cause and coordinates the Material Review Board (MRB).
+- Material Review Board (Quality Manager, Production Manager and Design Engineer): decides the disposition.
+
+4. Workflow Steps
+4.1 Segregate the nonconforming product and attach a red HOLD tag.
+4.2 Raise an NCR on form QF-601 with part number, batch, quantity, defect code (REF-DEF-005) and photographs.
+4.3 Notify the Quality Engineer and the area supervisor within 24 hours.
+4.4 The Quality Engineer reviews the NCR and convenes the MRB within 3 working days.
+4.5 The MRB decides the disposition: use-as-is, rework, return to supplier or scrap.
+4.6 For recurring or Major defects, open a Corrective Action Request (CAR) and perform a 5-Why root cause analysis.
+4.7 Close the NCR only after the disposition has been completed and verified.
+
+5. Notification Matrix
+- Incoming material defect: inform the Incoming Quality Lead and the Supplier Quality Engineer.
+- In-process defect: inform the Production Supervisor and the Line Quality Inspector.
+- Final inspection defect: inform the Production Supervisor and the Quality Manager.
+- Critical defect at any stage: inform the Quality Manager and the Plant Head immediately.
+
+6. Acceptable Evidence
+- Completed QF-601 form with defect photographs.
+- MRB disposition record with signatures.
+- CAR and root cause analysis for Major defects.
+
+7. Records
+- NCR records are retained for 5 years.

@@ -1,0 +1,47 @@
+Document ID: SOP-QA-002
+Title: Final Inspection
+Document Type: Standard Operating Procedure
+Revision: D
+Effective Date: 2026-03-01
+Owner: Quality Assurance Department
+
+1. Purpose
+This procedure defines the final inspection of finished products before packing and before the batch is presented for release.
+
+2. Scope
+Applies to all finished machined and assembled products manufactured at the plant, including rework batches.
+
+3. Responsibilities
+- Final Inspector: performs the final inspection and completes form QF-201.
+- Production Supervisor: provides the work order traveler and segregates rejected product.
+- Quality Manager: reviews the inspection package and is the only role authorised to release a batch (see SOP-REL-010).
+
+4. Sampling Plan
+- Sampling follows ISO 2859-1, General Inspection Level II, AQL 0.65 for major defects.
+- Critical-to-quality (CTQ) dimensions are checked on 100 percent of parts.
+- The first batch after a new setup or engineering change receives a full first article inspection.
+
+5. Inspection Steps
+5.1 Confirm that all in-process inspection records (SOP-QA-003) for the batch are complete and signed.
+5.2 Verify part number, drawing revision and quantity against the work order traveler.
+5.3 Carry out visual inspection of all surfaces under minimum 1000 lux lighting as per SOP-SURF-009.
+5.4 Measure all CTQ dimensions; use the CMM for dimensions marked CMM on the drawing.
+5.5 Perform the functional or fit check where the drawing specifies one.
+5.6 Verify the product label, batch number and barcode against the traveler (see SOP-LBL-008).
+5.7 Record all results on Final Inspection Report QF-201.
+5.8 Submit the completed inspection package to the Quality Manager for the release decision. The Final Inspector does not release batches.
+
+6. Acceptable Evidence
+- Completed and signed form QF-201.
+- CMM report for the CTQ dimensions.
+- Label verification checklist with the barcode scan result.
+- Work order traveler with all operation sign-offs.
+- Dated photographs of any defect found.
+
+7. Defect Handling and Escalation
+- Stop packing the batch and move suspect product to the red quarantine bin.
+- Raise an NCR as per SOP-NCR-006 before the end of the shift.
+- Inform the Production Supervisor and the Quality Manager immediately.
+
+8. Records
+- QF-201 forms, CMM reports and travelers are retained for 5 years as required by customer contracts.

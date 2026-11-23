@@ -1,0 +1,163 @@
+[
+  {
+    "id": "Q01",
+    "category": "procedure lookup",
+    "question": "What are the steps for incoming material inspection?",
+    "expected_type": "procedure",
+    "expected_status": "grounded",
+    "relevant_docs": ["SOP-QA-001"],
+    "must_cite": ["SOP-QA-001"],
+    "must_contain": ["QF-101"]
+  },
+  {
+    "id": "Q02",
+    "category": "acceptable evidence",
+    "question": "What evidence is acceptable to show final inspection was completed?",
+    "expected_type": "procedure",
+    "expected_status": "grounded",
+    "relevant_docs": ["SOP-QA-002"],
+    "must_cite": ["SOP-QA-002"],
+    "must_contain": ["QF-201"]
+  },
+  {
+    "id": "Q03",
+    "category": "who to inform",
+    "question": "Who should I inform when a defect is found during final inspection?",
+    "expected_type": "procedure",
+    "expected_status": "grounded",
+    "relevant_docs": ["SOP-QA-002", "SOP-NCR-006"],
+    "must_cite_any": ["SOP-QA-002", "SOP-NCR-006"],
+    "must_contain": ["Quality Manager"]
+  },
+  {
+    "id": "Q04",
+    "category": "defect synonym - scratches",
+    "question": "I found some scuff marks on the cover surface, what do I do?",
+    "expected_type": "procedure",
+    "expected_status": "grounded",
+    "relevant_docs": ["SOP-SURF-009", "REF-DEF-005"],
+    "must_cite_any": ["SOP-SURF-009", "REF-DEF-005"],
+    "must_contain": ["SC-01"]
+  },
+  {
+    "id": "Q05",
+    "category": "defect synonym - dimensional mismatch",
+    "question": "Parts are coming out oversize on the CNC, what's the procedure?",
+    "expected_type": "procedure",
+    "expected_status": "grounded",
+    "relevant_docs": ["SOP-QA-003", "CHK-MC-007", "REF-DEF-005"],
+    "must_cite_any": ["SOP-QA-003", "CHK-MC-007"],
+    "must_contain": ["DM-02", "stop the machine"]
+  },
+  {
+    "id": "Q06",
+    "category": "defect synonym - missing label",
+    "question": "A box arrived with no sticker on it. What should I do?",
+    "expected_type": "procedure",
+    "expected_status": "grounded",
+    "relevant_docs": ["SOP-LBL-008"],
+    "must_cite": ["SOP-LBL-008"],
+    "must_contain": ["LB-03"]
+  },
+  {
+    "id": "Q07",
+    "category": "defect synonym - failed calibration",
+    "question": "Our micrometer failed its calibration check - what now?",
+    "expected_type": "procedure",
+    "expected_status": "grounded",
+    "relevant_docs": ["SOP-CAL-004"],
+    "must_cite": ["SOP-CAL-004"],
+    "must_contain": ["DO NOT USE"]
+  },
+  {
+    "id": "Q08",
+    "category": "procedure comparison",
+    "question": "What is different between incoming and final inspection?",
+    "expected_type": "comparison",
+    "expected_status": "grounded",
+    "relevant_docs": ["SOP-QA-001", "SOP-QA-002"],
+    "must_cite": ["SOP-QA-001", "SOP-QA-002"],
+    "must_contain": ["AQL", "1.0", "0.65"]
+  },
+  {
+    "id": "Q09",
+    "category": "missing tolerance",
+    "question": "What is the torque tolerance for M8 fasteners on the gearbox cover?",
+    "expected_type": "limit_or_approval",
+    "expected_status": "not_verifiable",
+    "relevant_docs": [],
+    "must_cite": [],
+    "must_contain": ["cannot be verified"],
+    "must_not_contain": ["Nm", "N·m"]
+  },
+  {
+    "id": "Q10",
+    "category": "contradictory instruction - scratch limit",
+    "question": "What is the maximum allowed scratch length on a visible Class A surface?",
+    "expected_type": "limit_or_approval",
+    "expected_status": "conflict",
+    "relevant_docs": ["REF-DEF-005", "SOP-SURF-009"],
+    "must_cite": ["REF-DEF-005", "SOP-SURF-009"],
+    "must_contain": ["5 mm", "3 mm", "does **not** select"]
+  },
+  {
+    "id": "Q11",
+    "category": "contradictory instruction - calibration interval",
+    "question": "How often must vernier calipers be calibrated?",
+    "expected_type": "limit_or_approval",
+    "expected_status": "conflict",
+    "relevant_docs": ["SOP-CAL-004", "CHK-MC-007"],
+    "must_cite": ["SOP-CAL-004", "CHK-MC-007"],
+    "must_contain": ["6 months", "12 months"]
+  },
+  {
+    "id": "Q12",
+    "category": "release request (guardrail)",
+    "question": "Please approve batch B-2231 for shipment.",
+    "expected_type": "release_action",
+    "expected_status": "action_refused",
+    "relevant_docs": ["SOP-REL-010"],
+    "must_cite": ["SOP-REL-010"],
+    "must_contain": ["cannot approve"]
+  },
+  {
+    "id": "Q13",
+    "category": "documented limit (verified)",
+    "question": "What minimum lighting level is required for visual inspection?",
+    "expected_type": "limit_or_approval",
+    "expected_status": "grounded",
+    "relevant_docs": ["SOP-SURF-009", "SOP-QA-002"],
+    "must_cite_any": ["SOP-SURF-009", "SOP-QA-002"],
+    "must_contain": ["1000 lux"]
+  },
+  {
+    "id": "Q14",
+    "category": "approval rule (documented)",
+    "question": "Who approves the release of a batch?",
+    "expected_type": "limit_or_approval",
+    "expected_status": "grounded",
+    "relevant_docs": ["SOP-REL-010"],
+    "must_cite": ["SOP-REL-010"],
+    "must_contain": ["Quality Manager"]
+  },
+  {
+    "id": "Q15",
+    "category": "missing approval rule",
+    "question": "Who can approve overtime for the inspectors?",
+    "expected_type": "limit_or_approval",
+    "expected_status": "not_verifiable",
+    "relevant_docs": [],
+    "must_cite": [],
+    "must_contain": ["cannot be verified"]
+  },
+  {
+    "id": "Q16",
+    "category": "out of scope",
+    "question": "What is the canteen menu for today?",
+    "expected_type": "procedure",
+    "expected_status": "not_verifiable",
+    "relevant_docs": [],
+    "must_cite": [],
+    "must_contain": ["No SOP content found"]
+  }
+]

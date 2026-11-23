@@ -1,0 +1,28 @@
+Document ID: SOP-LBL-008
+Title: Labelling and Traceability
+Document Type: Standard Operating Procedure
+Revision: B
+Effective Date: 2025-12-01
+Owner: Stores and Quality Assurance
+
+1. Purpose
+This procedure ensures that material and products are correctly identified and traceable through all stages of manufacture.
+
+2. Label Requirements
+- Every package must carry a label showing part number, revision, batch number, quantity and barcode.
+- Finished product labels must also show the customer part number and date of manufacture.
+
+3. Label Verification Steps
+3.1 Check that a label is present on every package or bin.
+3.2 Scan the barcode and compare the decoded data with the traveler or delivery note.
+3.3 Confirm that the label is legible and securely attached.
+3.4 Record the result on the label verification checklist.
+
+4. Missing or Incorrect Label
+4.1 If a label is missing or incorrect, stop the movement of the package and tag it HOLD (defect code LB-03).
+4.2 Do not create a replacement label from memory; re-identify the material only from the traveler, the delivery note or by re-measurement.
+4.3 Inform the Stores In-charge and the Line Quality Inspector.
+4.4 Raise an NCR as per SOP-NCR-006 if the identity of the material cannot be confirmed.
+
+5. Records
+- Label verification checklists are filed with the related inspection report.

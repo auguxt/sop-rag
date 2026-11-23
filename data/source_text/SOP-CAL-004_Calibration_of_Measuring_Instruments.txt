@@ -1,0 +1,46 @@
+Document ID: SOP-CAL-004
+Title: Calibration of Measuring Instruments
+Document Type: Standard Operating Procedure
+Revision: E
+Effective Date: 2026-02-10
+Owner: Metrology Laboratory
+
+1. Purpose
+This procedure ensures that all measuring and test equipment used for product acceptance is calibrated, identified and traceable to national standards.
+
+2. Scope
+Covers vernier calipers, micrometers, height gauges, pin gauges, dial indicators and the coordinate measuring machine (CMM).
+
+3. Responsibilities
+- Metrology Technician: maintains the calibration schedule and performs in-house calibration.
+- Instrument User: checks the calibration label before every use.
+- Quality Manager: selects and authorises external calibration laboratories.
+
+4. Calibration Intervals
+- Vernier calipers and micrometers: calibrate every 6 months.
+- Height gauges, dial indicators and pin gauges: calibrate every 12 months.
+- CMM: calibrate every 12 months through an NABL-accredited external laboratory.
+
+5. Calibration Procedure
+5.1 Clean the instrument and allow it to stabilise in the metrology room for at least 2 hours.
+5.2 Check the instrument (for example a vernier caliper, micrometer or height gauge) against reference gauge blocks at a minimum of 3 points across its range.
+5.3 Record the observed error at each point on Calibration Record QF-401.
+5.4 Compare the observed error with the permissible error stated in the instrument master list.
+5.5 If the error is within the permissible error, attach a green calibration label showing the instrument ID and next due date.
+5.6 If the error is outside the permissible error, follow Section 6 (Failed Calibration Handling).
+
+6. Failed Calibration Handling
+6.1 Attach a red OUT OF CALIBRATION - DO NOT USE tag and remove the instrument from the shop floor.
+6.2 Inform the Metrology Technician and the Quality Manager on the same day.
+6.3 Use the instrument ID to identify all product measured with it since its last successful calibration.
+6.4 Carry out an impact assessment and re-inspect the suspect product with a calibrated instrument.
+6.5 Raise an NCR as per SOP-NCR-006 if suspect product has already been accepted or shipped.
+6.6 Repair, adjust or scrap the instrument and recalibrate it before it is returned to service.
+
+7. Acceptable Evidence
+- Calibration certificate or QF-401 record with traceability to national standards.
+- Valid green calibration label on the instrument.
+- Impact assessment record for every failed calibration.
+
+8. Records
+- Calibration records are retained for the life of the instrument plus 1 year.

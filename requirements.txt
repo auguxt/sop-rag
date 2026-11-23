@@ -1,0 +1,19 @@
+# Core (required)
+llama-index-core>=0.12,<0.15
+pypdf>=4.0
+numpy>=1.24
+streamlit>=1.35
+pandas>=2.0
+pytest>=8.0
+
+# Semantic embeddings (recommended). If these are not installed, or the model cannot be
+# downloaded, the assistant automatically falls back to its built-in offline embeddings.
+llama-index-embeddings-huggingface>=0.4
+sentence-transformers>=3.0
+
+# Only needed to regenerate the sample PDFs (scripts/build_sample_documents.py)
+reportlab>=4.0
+
+# Optional LLM wording (NOT required - the default extractive mode needs no API key):
+# llama-index-llms-openai      # SOP_LLM_BACKEND=openai  + OPENAI_API_KEY
+# llama-index-llms-ollama      # SOP_LLM_BACKEND=ollama  (local Ollama server)

@@ -1,0 +1,32 @@
+Document ID: SOP-REL-010
+Title: Batch Release and Quarantine Control
+Document Type: Standard Operating Procedure
+Revision: C
+Effective Date: 2026-03-15
+Owner: Quality Manager
+
+1. Purpose
+This procedure defines who may release finished batches for dispatch and how quarantined product is controlled.
+
+2. Release Authority
+- Only the Quality Manager, or a deputy named in writing by the Quality Manager, may approve the release of a batch.
+- Inspectors, operators and software tools, including any digital assistant, cannot approve or release batches.
+
+3. Release Prerequisites
+3.1 Final Inspection Report QF-201 is complete and signed.
+3.2 All NCRs for the batch are closed or have an approved MRB disposition.
+3.3 Product labels and quantities have been verified.
+3.4 Customer-specific documents, such as a certificate of conformance, are prepared.
+
+4. Release Steps
+4.1 The Final Inspector submits the inspection package to the Quality Manager.
+4.2 The Quality Manager reviews the package against the release prerequisites.
+4.3 If acceptable, the Quality Manager signs the release on form QF-701 and the batch is tagged RELEASED.
+4.4 If not acceptable, the batch remains on HOLD and the reason is recorded on QF-701.
+
+5. Quarantine Control
+- HOLD product is kept in the locked quarantine area with red tags.
+- Only the Quality Manager may authorise removal of product from quarantine.
+
+6. Records
+- Release records on form QF-701 are retained for 5 years.

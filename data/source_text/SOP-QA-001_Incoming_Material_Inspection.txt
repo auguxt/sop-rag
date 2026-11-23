@@ -1,0 +1,47 @@
+Document ID: SOP-QA-001
+Title: Incoming Material Inspection
+Document Type: Standard Operating Procedure
+Revision: C
+Effective Date: 2026-03-01
+Owner: Quality Assurance Department
+
+1. Purpose
+This procedure defines how purchased raw material, castings and bought-out components are inspected on receipt before they are moved to stores or used in production.
+
+2. Scope
+Applies to all supplier deliveries received at the goods-receiving area, including bar stock, aluminium castings, bearings, seals and packaging material. Customer-supplied material is also covered.
+
+3. Responsibilities
+- Incoming Inspector: performs the inspection and completes form QF-101.
+- Incoming Quality Lead: reviews rejected lots and signs the inspection report.
+- Supplier Quality Engineer: communicates rejections to the supplier and tracks corrective action.
+- Stores: moves only lots tagged ACCEPTED into stock.
+
+4. Sampling Plan
+- Sampling follows ISO 2859-1, General Inspection Level II, AQL 1.0 for major defects.
+- Lots of 50 units or fewer are inspected 100 percent.
+- The first delivery from a new supplier receives 100 percent dimensional inspection.
+
+5. Inspection Steps
+5.1 Match the supplier delivery note with the purchase order: part number, revision and quantity.
+5.2 Check that a Certificate of Conformance (CoC) and, for metals, a material test certificate is supplied for each heat or lot.
+5.3 Inspect packaging for damage or moisture and confirm each package carries a supplier label (see SOP-LBL-008).
+5.4 Carry out visual inspection of sampled parts for scratches, dents, corrosion and burrs using the defect codes in REF-DEF-005.
+5.5 Measure the critical dimensions listed on the drawing for each sampled part.
+5.6 Before measuring, confirm the instrument carries a valid calibration label (see SOP-CAL-004).
+5.7 Record all results and the instrument ID on Incoming Inspection Report QF-101.
+5.8 Apply a green ACCEPTED tag to conforming lots or a red HOLD tag to suspect lots and move HOLD lots to the quarantine rack.
+
+6. Acceptable Evidence
+- Supplier Certificate of Conformance and material test certificate.
+- Completed and signed form QF-101 with instrument IDs.
+- Measurement data sheet for the sampled parts.
+- Dated photographs of any defect found.
+
+7. Defect Handling and Escalation
+- Place the whole lot on HOLD; do not return it to the supplier without a disposition.
+- Raise a Non-Conformance Report (NCR) as per SOP-NCR-006 within 24 hours of detection.
+- Inform the Incoming Quality Lead and the Supplier Quality Engineer; the Supplier Quality Engineer notifies the supplier.
+
+8. Records
+- QF-101 forms and supplier certificates are retained for 3 years in the quality records room.

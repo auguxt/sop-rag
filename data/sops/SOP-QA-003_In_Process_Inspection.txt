@@ -1,0 +1,42 @@
+Document ID: SOP-QA-003
+Title: In-Process Inspection
+Document Type: Standard Operating Procedure
+Revision: B
+Effective Date: 2026-01-15
+Owner: Quality Assurance Department
+
+1. Purpose
+This procedure defines the inspections carried out at the machine during production so that problems are detected before a full batch is made.
+
+2. Scope
+Applies to CNC turning, milling and grinding operations.
+
+3. Responsibilities
+- Machine Operator: performs first-piece and patrol checks.
+- Line Quality Inspector: signs off the first-piece inspection before production continues.
+- Production Supervisor: stops the machine when a dimension is out of tolerance.
+
+4. Inspection Frequency
+- First-piece inspection at every setup, tool change or program change.
+- Patrol inspection every 2 hours during production.
+- Last-piece inspection at the end of each batch.
+
+5. Inspection Steps
+5.1 Measure all drawing dimensions on the first piece and record them on In-Process Check Sheet QF-301.
+5.2 Obtain sign-off from the Line Quality Inspector before running the batch.
+5.3 During patrol inspection, measure the dimensions marked with a patrol symbol on the control plan.
+5.4 If a dimension is out of tolerance (dimensional mismatch, code DM-02), stop the machine immediately.
+5.5 Segregate all parts produced since the last good patrol check and tag them HOLD.
+5.6 Correct the cause (tool offset, worn insert or fixture) and repeat the first-piece inspection.
+
+6. Acceptable Evidence
+- Completed QF-301 check sheet with operator and inspector initials.
+- Signed first-piece inspection record.
+- Tool change log entries.
+
+7. Defect Handling and Escalation
+- Inform the Production Supervisor and the Line Quality Inspector immediately when a dimensional mismatch is found.
+- Raise an NCR as per SOP-NCR-006 if any suspect parts are confirmed nonconforming.
+
+8. Records
+- QF-301 check sheets are retained for 3 years.

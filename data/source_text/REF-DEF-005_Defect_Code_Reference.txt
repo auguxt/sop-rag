@@ -1,0 +1,33 @@
+Document ID: REF-DEF-005
+Title: Defect Code Reference
+Document Type: Reference
+Revision: A
+Effective Date: 2025-11-01
+Owner: Quality Engineering
+
+1. Purpose
+This reference provides standard defect codes and classifications so that defects are recorded consistently on inspection reports and NCRs.
+
+2. Defect Classification
+- Critical: defect likely to cause an unsafe condition or complete loss of function.
+- Major: defect likely to cause failure or to materially reduce usability.
+- Minor: defect unlikely to reduce usability, typically cosmetic.
+
+3. Defect Codes
+- SC-01 Scratch: line mark, scuff or abrasion on the surface. Minor on Class B surfaces; Major on Class A surfaces when outside the cosmetic limits.
+- DM-02 Dimensional mismatch: dimension outside the drawing tolerance (oversize or undersize). Major; Critical when the dimension is CTQ.
+- LB-03 Missing or incorrect label: package or part without the required label, or label data that does not match the traveler. Major.
+- CF-04 Failed calibration: inspection performed with an instrument that is out of calibration or overdue. Major (system defect).
+- DN-05 Dent: local deformation caused by impact. Minor or Major depending on location.
+- CR-06 Corrosion: rust or oxidation on the surface. Major.
+- BR-07 Burr: raised sharp edge left by machining. Minor unless it is on a sealing or mating face.
+
+4. Cosmetic Acceptance Limits
+- Scratch on Class A (visible) surface: maximum length 5 mm, maximum width 0.2 mm.
+- Class B (hidden) surfaces: scratches are acceptable provided they do not expose base material or affect function.
+- Dents on Class A surfaces are not acceptable.
+
+5. Disposition Guidance
+- Record the defect code on the inspection report and on the NCR.
+- Disposition options are use-as-is, rework, return to supplier or scrap, decided through SOP-NCR-006.
+- Use-as-is for a Major defect requires a customer concession.

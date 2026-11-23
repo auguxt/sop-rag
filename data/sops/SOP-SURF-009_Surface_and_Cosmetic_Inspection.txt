@@ -1,0 +1,33 @@
+Document ID: SOP-SURF-009
+Title: Surface Finish and Cosmetic Inspection
+Document Type: Standard Operating Procedure
+Revision: B
+Effective Date: 2026-04-01
+Owner: Quality Assurance Department
+
+1. Purpose
+This procedure defines how visual and cosmetic inspection of machined and painted surfaces is performed.
+
+2. Scope
+Covers all Class A surfaces (visible to the end customer) and Class B surfaces (hidden after assembly).
+
+3. Inspection Conditions
+- Lighting: minimum 1000 lux at the inspection surface.
+- Viewing distance: 450 mm, holding each surface in view for about 10 seconds.
+- Inspect without magnification unless the drawing specifies otherwise.
+
+4. Inspection Steps
+4.1 Clean the part with a lint-free cloth.
+4.2 View each Class A surface at the specified distance, rotating the part under the light.
+4.3 Run a fingernail across any scratch; a scratch that catches the fingernail is rejected regardless of its length.
+4.4 Mark defects with a removable marker and record the defect code (REF-DEF-005) on the inspection report.
+4.5 Segregate rejected parts and tag them HOLD.
+
+5. Acceptance Criteria
+- Scratch on Class A (visible) surface: maximum length 3 mm, maximum width 0.2 mm.
+- No more than 2 scratches are allowed on a single Class A surface.
+- Class B surfaces: scratches are acceptable if they do not expose base material.
+
+6. Escalation
+- Inform the Line Quality Inspector when scratches repeat on consecutive parts, because this indicates a handling or fixture problem.
+- Raise an NCR as per SOP-NCR-006 for every rejected batch.
